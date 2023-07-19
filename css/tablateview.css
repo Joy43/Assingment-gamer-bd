@@ -1,0 +1,44 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    /* CSS */
+
+    header{
+        padding: 10px;
+        max-width: 600px;
+    }
+        nav{
+         display:inline-block;
+         padding: 10px; 
+        
+       
+        }
+        nav ul{
+            display: flex;
+            gap: 20px;
+         
+           
+           
+        }
+
+        /* game display */
+        .game-display-container,.we-are-game-section{
+            display: flex;
+            width: 300px;
+            color: #ffff;
+            background: #fff,transparent;
+            grid-template-columns:repeat(1,1fr);
+           justify-items: start;
+         align-items: start;
+         
+           
+        }
+        .online-img-game-box{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .footer_game_icon{
+            display: grid;
+            grid-template-columns: auto auto; 
+        }
+
+}
